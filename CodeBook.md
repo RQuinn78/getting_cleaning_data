@@ -1,7 +1,7 @@
 ##Codebook for run.analysis.R
 The datafiles for this script come from the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The dataset on which the run_analysis.R script runs can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-The original dataset consists of measurements taken from 30 volunteers performing each of six activities while wearing a Smartphone on the waist. Using the phones embedded accelerometer and gyroscope, 3 axial linear acceleration and angular velocity were captured at a constant rate of 50 Hz. The run_analysis.R takes the mean and standard deviation measurements and calculates the mean of each of these measurements for each activity for each subject.
+The original dataset consists of measurements taken from 30 volunteers performing each of six activities while wearing a Smartphone on the waist. Using the phones embedded accelerometer and gyroscope, 3 axial linear acceleration and angular velocity were captured at a constant rate of 50 Hz. The run_analysis.R script takes the mean and standard deviation measurements and calculates the mean of each of these measurements for each activity for each subject.
 
 ###Dictionary..
 The measurements are split into time (t) and frequency (f) domains. Signals were taken from the accelerometer (acc) and gyroscope (gyro). Mag refers to the magnitude of the three dimensional body. Jerk refers to the time rate of change of acceleration.   
@@ -10,7 +10,7 @@ The measurements are split into time (t) and frequency (f) domains. Signals were
 **Subjects** - Each subject is denoted by a number. 30 subjects in total<br>
 **Activity** - This is a six level factor. The levels are Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying.
 
-The run_analysis.R script produces the means of the meaurements below. 66 variables in total.
+The run_analysis.R script produces the means of the meaurements below. 66 measurement variables in total.
 
 **tbodyacc-mean()-x, y, z** - The mean of the body acceleration signal in X/Y/Z direction <br>
 **tbodyacc-std()-x, y, z** - The standard deviation of the body acceleration signal in x/Y/z direction <br>
