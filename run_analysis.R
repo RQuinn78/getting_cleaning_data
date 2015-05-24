@@ -48,11 +48,10 @@ final$activity <- as.factor(final$activity)
 final$activity <- mapvalues(final$activity, c(1:6), c("walking", "walkingupstairs",
                                                       "walkingdownstairs",
                                                       "sitting", "standing", "laying"))
-
-##changing variable names to lower case
+##change variable names to lower case
 ##grouping by subjects and activity and calculating summary means
-final <- tolower(names(final))
-final <- arrange (final,subjects, activity) 
+names (final) <-tolower(names(final))
+final <- arrange (final, subjects, activity) 
 final <- group_by(final, subjects, activity) 
 final <- summarise_each(final, funs(mean))
 
