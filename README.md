@@ -5,10 +5,10 @@ Repository for project work for Getting and Cleaning Data - Coursera
 1.Load the libraries needed for the script to run (plyr and dplyr).
 
 2.Create the test_data object 
-  * Read the x_test, y_test and subject_test files
-  * Name subjects column in subject test
-  * cbind the 3 files to create the test data
-  * remove objects that are no longer needed
+ * Read the x_test, y_test and subject_test files
+ * Name subjects column in subject test
+ * cbind the 3 files to create the test data
+ * remove objects that are no longer needed
 
 3.Create the train_data object  
   * Read the x_train, y_train and subject_train files
