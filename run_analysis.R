@@ -51,9 +51,10 @@ final$activity <- mapvalues(final$activity, c(1:6), c("walking", "walkingupstair
 
 ##changing variable names to lower case
 ##grouping by subjects and activity and calculating summary means
-tolower(names(final))
+final <- tolower(names(final))
 final <- arrange (final,subjects, activity) 
 final <- group_by(final, subjects, activity) 
 final <- summarise_each(final, funs(mean))
+
 write.table (final, file="./gandcd_project.txt", row.name=FALSE, col.names=TRUE)
 
