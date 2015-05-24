@@ -5,27 +5,27 @@ Repository for project work for Getting and Cleaning Data - Coursera
 1.Load the libraries needed for the script to run (plyr and dplyr).
 
 2.Create the test_data object 
-..*Read the x_test, y_test and subject_test files
-..*Name subjects column in subject test
-..*cbind the 3 files to create the test data
-..* remove objects that are no longer needed
+  *Read the x_test, y_test and subject_test files
+  *Name subjects column in subject test
+  *cbind the 3 files to create the test data
+  * remove objects that are no longer needed
 
 3.Create the train_data object  
-..*Read the x_train, y_train and subject_train files
-..*Name subjects column in subject train
-..*cbind the 3 files to create the training data
-..*remove objects that are no longer needed
+  *Read the x_train, y_train and subject_train files
+  *Name subjects column in subject train
+  *cbind the 3 files to create the training data
+  *remove objects that are no longer needed
 
 4.Bind the training and test data sets to create the main dataset and remove objects no longer needed
 
 5.Extract the mean and standard deviation measurements from the features file (66 measurements)
 
 6.Extract just the mean and standard deviation measurements from the main dataset
-..* This is done by first splitting the main dataset
-..*Use the list of means and standard deviation colnames from the features file to extract this data from main dataset
-..*Label the columns using the list from the features file
-..*Bind the subjects, activity and means and standard deviations measurements to create one final object
-..*remove objects that are no longer needed
+  * This is done by first splitting the main dataset
+  *Use the list of means and standard deviation colnames from the features file to extract this data from main dataset
+  *Label the columns using the list from the features file
+  *Bind the subjects, activity and means and standard deviations measurements to create one final object
+  *remove objects that are no longer needed
 
 7.Add activity labels to the final object
 
